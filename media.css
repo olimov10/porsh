@@ -1,0 +1,104 @@
+@media screen and (max-width: 990px) {
+    .main_collection{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .models{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text__footo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text{
+        border-radius: 10px 10px 0 0;
+ 
+    }
+    .text_h1_p{
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    .kotta_moshina{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px
+    }
+    .rasm_moshina{
+        width: 800px;
+    }
+    .text_moshina input{
+        max-width: 300px;
+        font-size: 18px;
+    }
+    .text_moshina{
+        width: 600px;
+        padding-left: 40px;
+        font-size: 19px;
+    }
+    .footer_collection{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footr_banner{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .footer_collec{
+        width: 100%;
+        height: 180vh;
+        background: #000;
+    }   
+    .footer_collec b{
+        margin-left: -50px;
+    }
+}
+@media screen and (max-width:550px) {
+    .main__item{
+        max-width: 85%;
+    }
+    .models__item{
+        max-width: 80%;
+    }
+    .text_models button{
+        width: 95%;
+        
+    }
+    .text_foto{
+        width: 350px;
+    } 
+    .text{
+        border-radius: 10px 10px 0 0;
+ 
+    }
+    .rasm_moshina{
+        width: 100%;
+    }
+    .text_moshina input{
+        max-width: 300px;
+       font-size: 18px;
+    } 
+    .text_moshina{
+        width: 350px;
+        
+        font-size: 19px;
+    }
+    .footer__item button{
+        width: 150px;
+    }
+    .footer_collec{
+        width: 100%;
+        height: 250vh;
+        background: #000
+    }
+    .hr{
+        color: #ddd;
+       
+    }
+    .footer_collec b{
+        margin-left: -50px;
+    }
+}
